@@ -1,0 +1,41 @@
+*,
+*::antes,
+*::depois {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    line-height: calc(1em + 0.5rem);
+    font: inherit;
+}
+
+body {
+    min-height: 100vh;
+    background-color: black;
+    font-family: "Poppins", sans-serif;
+    color: #f3f3f3;
+
+}
+
+img,
+imagem,
+vídeo,
+tela,
+svg {
+    display: bloco;
+    max-width: 100%;
+}
+
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+    
+}
+
+

@@ -1,0 +1,130 @@
+@media screen and (max-width:1020px) {
+
+    .flex{
+        flex-direction: column;
+    }
+   
+    /* header */
+    header {
+        & .interface {
+            justify-content: start;
+        }
+
+        & .btn-contato {
+            display: none;
+        }
+    }
+
+    .menu-desktop {
+        display: none;
+    }
+
+
+    /* FIM header */
+
+
+
+      /* seção princpal */
+
+    .section--principal{
+        
+        padding: 2rem 8%;
+
+        & .flex {
+            flex-direction: column-reverse;
+            gap: 1.5rem;
+        }
+
+        & .section--left {
+            padding-inline: 0;
+
+            & .section--title{
+                font-size: 1.7rem;
+            }
+        }
+
+        & .section--rigth{
+           
+            & img {
+                margin: auto;
+            }
+        }
+    }
+
+       /* FIM seção princpal */
+
+
+
+       .title--especialidades{
+        font-size: 2rem;
+        line-height: 1;
+       }
+       .especialidades{
+        padding: 4rem 9%;
+       }
+}
+@media screen and (max-width:450px) {
+
+    .flex{
+        flex-direction: column;
+    }
+   
+    /* header */
+    header {
+        & .interface {
+            justify-content: start;
+        }
+
+        & .btn-contato {
+            display: none;
+        }
+    }
+
+    .menu-desktop {
+        display: none;
+    }
+
+
+    /* FIM header */
+
+
+
+      /* seção princpal */
+
+    .section--principal{
+        
+        padding: 2rem 8%;
+
+        & .flex {
+            flex-direction: column-reverse;
+            gap: 1.5rem;
+        }
+
+        & .section--left {
+            padding-inline: 0;
+
+            & .section--title{
+                font-size: 1.7rem;
+            }
+        }
+
+        & .section--rigth{
+           
+            & img {
+                margin: auto;
+            }
+        }
+    }
+
+       /* FIM seção princpal */
+
+
+
+       .title--especialidades{
+        font-size: 2rem;
+        line-height: 1;
+       }
+       .especialidades{
+        padding: 4rem 9%;
+       }
+}

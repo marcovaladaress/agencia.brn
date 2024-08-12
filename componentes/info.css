@@ -1,0 +1,58 @@
+
+.sobre{
+
+    padding-block: 7rem;
+    padding-inline: 2rem;
+}
+
+.img-sobre{
+    max-width: 280px;
+    width: 100%;
+}
+
+
+
+.title--sobre {
+    font-size: 2.5rem;
+    line-height: 1;
+    margin-bottom: 3rem;
+    font-weight: 600;
+    
+    & span {
+        color: #00FF08;
+        display: block;
+    }
+
+}
+
+.sobre--description{
+    margin-block: 1.4rem;
+    text-align: justify;
+    font-size: 0.9rem;
+    font-weight:300;
+}
+
+.btn-social{
+   
+    & button {
+        width: 60px;
+        height: 60px;
+        background-color: #00FF08;
+        border-radius: 50%;
+        border: none;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        margin: 0 8px;
+        transition: .2s;
+         
+        & svg {
+            margin-top: 6px;
+        }
+
+        &:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 8px #00FF08;
+        }
+    }
+}

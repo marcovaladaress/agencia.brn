@@ -1,0 +1,13 @@
+
+
+footer {
+    padding-block: 3rem;
+    padding-inline: 2rem;
+    box-shadow: 0 0 40px 10px #f3f3f30c;
+
+    & .flex {
+        justify-content: space-between;
+    }
+
+   
+}

@@ -1,0 +1,72 @@
+
+
+.section--principal{
+    padding-block:5rem;
+    padding-inline: 2rem;
+    max-width: 1280px;
+    overflow: hidden;   
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    
+}
+
+.section--left{
+    flex: 1;
+}
+
+.section--rigth{
+   flex: 1;
+} 
+
+.section--title{
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 1;
+
+
+
+
+    & span {
+        color:#00FF08 ;
+    }
+}
+
+
+
+.section--description{
+    font-size: 0.9em;
+    padding-block: 1.3rem;
+    font-weight: 300;
+}
+
+
+.section--left{
+    padding-left: 1.8rem;
+}
+
+.section--rigth{
+    & img {
+        position: relative;
+        animation: flutuar 2s ease-in-out infinite alternate;
+       margin-left: 10rem;
+        max-width: 350px;
+    }
+}
+
+
+@keyframes flutuar {
+    0% {
+        top: 0;
+    }
+
+    100% {
+        top: 30px;
+    }
+    
+}
+
